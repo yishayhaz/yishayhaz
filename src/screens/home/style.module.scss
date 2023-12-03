@@ -1,0 +1,48 @@
+.home_screen {
+  min-height: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+
+  padding-inline: var(--page-padding-inline);
+
+  h1,
+  p {
+    text-align: left;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  p {
+    color: var(--article-color);
+  }
+
+  a {
+    margin-top: 1rem;
+
+    &:not(:hover) {
+      text-decoration: none;
+    }
+    text-decoration-color: blue;
+    color: var(--article-color);
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    svg {
+      animation: jump 0.5s infinite alternate forwards;
+    }
+
+    @keyframes jump {
+      100% {
+        transform: translateX(0.5rem);
+      }
+    }
+  }
+}

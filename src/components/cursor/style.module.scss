@@ -2,11 +2,14 @@
   height: 75px;
   width: 75px;
 
-  border: 2px solid rgb(179, 179, 179);
+  border: 2px solid var(--border-color);
 }
 
 .cursor_dot {
-  border: 4px solid gray;
+  height: 6px;
+  width: 6px;
+
+  background-color: var(--border-color);
 }
 
 .cursor,
@@ -20,6 +23,5 @@
 
 .cursor_hidden,
 .cursor_dot_hidden {
-  opacity: 0;
   transition: opacity 0.8s ease-out;
 }

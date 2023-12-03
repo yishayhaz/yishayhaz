@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Merriweather", serif;
+}
+
+:root {
+  --page-padding-inline: max(5%, calc((100vw - 800px) / 2));
+
+  --article-color: #545454;
+  --border-color: #d6d6d6;
+}
+
+body {
+  min-height: 100dvh;
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: radial-gradient(
+      circle at center,
+      rgb(212, 212, 212, 0.3) 2px,
+      transparent 0
+    );
+    background-size: 8px 8px;
+    background-repeat: round;
+    z-index: -1;
+  }
+
+  &:after {
+    background-image: radial-gradient(
+        at 40% 40%,
+        rgb(30, 144, 255) 0px,
+        transparent 50%
+      ),
+      radial-gradient(at 90% 10%, rgb(255, 105, 180) 0px, transparent 50%),
+      radial-gradient(at 50% 95%, rgb(0, 255, 255) 0px, transparent 50%),
+      radial-gradient(at 20% 30%, rgb(50, 205, 50) 0px, transparent 50%),
+      radial-gradient(at 90% 90%, rgb(255, 255, 0) 0px, transparent 50%),
+      radial-gradient(at 33% 50%, rgb(255, 69, 0) 0px, transparent 50%),
+      radial-gradient(at 79% 53%, rgb(128, 0, 128) 0px, transparent 50%);
+    position: fixed;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: blur(100px) saturate(100%);
+    top: 0px;
+    opacity: 0.1;
+    transform: translateZ(0px);
+  }
+}
+
+h1 {
+  letter-spacing: 4px;
+  font-weight: 900;
+  font-size: 3rem;
+}
