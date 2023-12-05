@@ -9,7 +9,7 @@
 }
 
 :root {
-  --page-padding-inline: max(5%, calc((100vw - 800px) / 2));
+  --page-padding-inline: max(5%, calc((100vw - 950px) / 2));
 
   --article-color: rgb(190, 190, 190);
   --border-color: #d6d6d6;
@@ -65,7 +65,6 @@ body {
 }
 
 h1 {
-  letter-spacing: 4px;
   font-weight: 900;
   font-size: 3rem;
 }
