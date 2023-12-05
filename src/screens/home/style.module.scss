@@ -5,30 +5,31 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem;
 
   padding-inline: var(--page-padding-inline);
 
-  h1,
-  p {
-    text-align: left;
+  .content {
+    h1,
+    p {
+      text-align: left;
+    }
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      color: var(--article-color);
+    }
   }
 
-  h1 {
-    text-transform: uppercase;
-  }
-
-  p {
-    color: var(--article-color);
-  }
-
-  a {
-    margin-top: 1rem;
-
+  & > a {
     &:not(:hover) {
       text-decoration: none;
     }
-    text-decoration-color: blue;
+    text-decoration-color: var(--primary-color);
     color: var(--article-color);
 
     display: flex;

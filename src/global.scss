@@ -11,13 +11,17 @@
 :root {
   --page-padding-inline: max(5%, calc((100vw - 800px) / 2));
 
-  --article-color: #545454;
+  --article-color: rgb(190, 190, 190);
   --border-color: #d6d6d6;
+  --primary-color: #00bfff;
 }
 
 body {
   min-height: 100dvh;
   box-sizing: border-box;
+
+  background: #020a13;
+  color: var(--article-color);
 
   &::before {
     content: "";
@@ -28,10 +32,10 @@ body {
     left: 0;
     background-image: radial-gradient(
       circle at center,
-      rgb(212, 212, 212, 0.3) 2px,
+      rgba(37, 37, 37, 0.3) 1px,
       transparent 0
     );
-    background-size: 8px 8px;
+    background-size: 4px 4px;
     background-repeat: round;
     z-index: -1;
   }
@@ -64,4 +68,37 @@ h1 {
   letter-spacing: 4px;
   font-weight: 900;
   font-size: 3rem;
+}
+
+.watermark {
+  position: fixed;
+
+  inset: auto auto 5vh 2vw;
+
+  z-index: -3;
+
+  span {
+    line-height: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    color: #080f18;
+
+    white-space: pre;
+    writing-mode: unset;
+    cursor: default;
+
+    &::selection {
+      background: transparent;
+    }
+  }
+}
+
+:root {
+  view-transition-name: root;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.3s;
 }

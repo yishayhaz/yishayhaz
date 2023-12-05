@@ -1,26 +1,31 @@
 import { component$ } from "@builder.io/qwik";
-import { Cursor } from "~/components/cursor";
+import { Link } from "@builder.io/qwik-city";
 import styles from "./style.module.scss";
+import { Socials } from "~/components/socials";
 
 export const HomeScreen = component$(() => {
   return (
     <>
+      <div class="watermark">
+        <span>about me.</span>
+      </div>
       <main class={styles.home_screen}>
-        <h1>im yishay hazan</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-          possimus aut nisi. Esse sit minus autem quae, expedita perferendis
-          optio eius tenetur porro libero suscipit, quibusdam, ut ab officiis
-          quos?
-          <br />
-          <br />
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et neque
-          provident repellendus sit, facilis nobis culpa quam vitae. Asperiores
-          obcaecati laboriosam, quod soluta eveniet fugiat accusantium sed esse
-          enim labore?
-        </p>
-
-        <a href="/contact">
+        <div class={styles.content}>
+          <h1>im yishay hazan</h1>
+          <p>
+            Hey there! I'm Yishay, an experienced developer specializing in
+            building design systems for large & complex projects. My background
+            spans full-stack applications, mobile apps, and software. That's
+            just the professional part ;) in my free time, I played with tons of
+            technology!
+            <br />
+            <br />I spend my days doing what I love—volunteering to teach
+            children English and math, playing football, going for runs (21km
+            soon!), taking a medics course, and diving into discussions on
+            philosophy, psychology, and anything that teases my mind.
+          </p>
+        </div>
+        <Link href="/projects">
           Read about my work
           <svg
             stroke="currentColor"
@@ -38,12 +43,9 @@ export const HomeScreen = component$(() => {
               clip-rule="evenodd"
             ></path>
           </svg>
-        </a>
+        </Link>
+        <Socials />
       </main>
     </>
   );
 });
-
-// {
-/* <Cursor /> */
-// }

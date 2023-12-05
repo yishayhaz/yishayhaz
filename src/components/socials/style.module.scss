@@ -1,0 +1,13 @@
+.socials {
+  display: flex;
+  gap: 2rem;
+
+  a {
+    svg {
+      width: 21px;
+      height: 21px;
+
+      color: var(--article-color);
+    }
+  }
+}
