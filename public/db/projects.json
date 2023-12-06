@@ -1,0 +1,23 @@
+[
+  {
+    "cardHeight": 350,
+    "thumbnail": "shoppa.png",
+    "name": "Shoppa",
+    "timeline": "Jan - Nov 2023",
+    "shortDescription": "An online ecommerce marketplace."
+  },
+  {
+    "cardHeight": 350,
+    "name": "3 Walls",
+    "shortDescription": "An immersive learning expirence",
+    "thumbnail": "shoppa.png",
+    "timeline": "Oct 2022 - Present"
+  },
+  {
+    "cardHeight": 350,
+    "name": "Proprep",
+    "shortDescription": "Study STEM online",
+    "thumbnail": "proprep.png",
+    "timeline": "june 2022 - june 2023"
+  }
+]
