@@ -1,6 +1,7 @@
 import { component$, useTask$, useSignal } from "@builder.io/qwik";
+import { Link } from "@builder.io/qwik-city";
 import styles from "./style.module.scss";
-import { Project } from "~/types";
+import type { Project } from "~/types";
 
 export const ProjectsScreen = component$(() => {
   const projects = useSignal<Project[]>([]);
@@ -15,14 +16,15 @@ export const ProjectsScreen = component$(() => {
   });
 
   return (
-    <main class={styles.projects_screen}>
+    <section class={styles.projects_screen}>
       <h1>Projects.</h1>
       <div class={styles.projects}>
         {projects.value.map((project, idx) => (
-          <div
+          <Link
             class={styles.project}
             key={idx}
             style={{ height: project.cardHeight + "px" }}
+            href={`${project.name.toLowerCase().replaceAll(" ", "-")}`}
           >
             <img
               src={`/projects/${project.thumbnail}`}
@@ -35,9 +37,9 @@ export const ProjectsScreen = component$(() => {
               <time>{project.timeline}</time>
               <p>{project.shortDescription}</p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
-    </main>
+    </section>
   );
 });

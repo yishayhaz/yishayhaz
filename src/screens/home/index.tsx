@@ -9,7 +9,7 @@ export const HomeScreen = component$(() => {
       <div class="watermark">
         <span>about me.</span>
       </div>
-      <main class={styles.home_screen}>
+      <section class={styles.home_screen}>
         <div class={styles.content}>
           <h1>im yishay hazan</h1>
           <p>
@@ -45,7 +45,7 @@ export const HomeScreen = component$(() => {
           </svg>
         </Link>
         <Socials />
-      </main>
+      </section>
     </>
   );
 });
