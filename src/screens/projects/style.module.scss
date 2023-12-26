@@ -25,6 +25,9 @@
       flex-direction: column;
       justify-content: flex-end;
 
+      text-decoration: none;
+      color: inherit;
+
       &:before {
         content: "";
         position: absolute;
