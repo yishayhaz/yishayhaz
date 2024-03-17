@@ -5,3 +5,7 @@ export const titleize = (str: string) => {
 export const capitalize = (str: string) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
+
+export const getImagePath = (folder: string, name: string) => {
+  return `/projects/${folder}/${name}`;
+};
