@@ -17,3 +17,7 @@ export const mdStringToHtml = (str: string) => {
 
   return str;
 };
+
+export const titleToId = (title: string) => {
+  return title.toLowerCase().replace(/ /g, "-");
+};

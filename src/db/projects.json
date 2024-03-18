@@ -6,16 +6,7 @@
     "shortDescription": "An online ecommerce marketplace.",
     "folder": "shoppa",
     "thumbnail": "shoppa.png",
-    "gallery": [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png",
-      "5.png",
-      "6.png",
-      "7.png",
-      "8.png"
-    ],
+
     "content": [
       {
         "title": "About the project",
@@ -28,6 +19,19 @@
       {
         "title": "Challenges",
         "content": "One of the significant challenges we encountered at Shoppa was refining the payment system. It required extensive effort and took considerable time, lasting days if not weeks, to devise an optimal strategy. However, I led the effort to simplify and improve the process, ultimately developing a more efficient solution.<br/><br/>Another challenge we faced was the need to efficiently develop multiple projects simultaneously while ensuring scalability. To address this, I took the initiative to create an exceptional UI library [(https://yasa-ui.netlify.app)](https://yasa-ui.netlify.app). This library not only facilitated rapid development but also ensured that projects were well-organized and scalable."
+      },
+      {
+        "title": "Gallery",
+        "gallery": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png",
+          "5.png",
+          "6.png",
+          "7.png",
+          "8.png"
+        ]
       }
     ]
   },
@@ -41,8 +45,11 @@
   {
     "cardHeight": 350,
     "name": "Proprep",
+    "folder": "proprep",
     "shortDescription": "Study STEM online",
     "thumbnail": "proprep.png",
-    "timeline": "june 2022 - june 2023"
+    "timeline": "june 2022 - june 2023",
+    "content": [],
+    "gallery": []
   }
 ]
