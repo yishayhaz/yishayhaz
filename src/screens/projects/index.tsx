@@ -2,24 +2,15 @@ import { component$, useTask$, useSignal } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import styles from "./style.module.scss";
 import type { Project } from "~/types";
+import projects from "~/db/projects.json";
+import { getImagePath } from "~/utils";
 
 export const ProjectsScreen = component$(() => {
-  const projects = useSignal<Project[]>([]);
-
-  useTask$(async () => {
-    try {
-      const res = await fetch("http://localhost:5173/db/projects.json");
-      projects.value = await res.json();
-    } catch {
-      /**/
-    }
-  });
-
   return (
     <section class={styles.projects_screen}>
       <h1>Projects.</h1>
       <div class={styles.projects}>
-        {projects.value.map((project, idx) => (
+        {projects.map((project, idx) => (
           <Link
             class={styles.project}
             key={idx}
@@ -27,7 +18,7 @@ export const ProjectsScreen = component$(() => {
             href={`${project.name.toLowerCase().replaceAll(" ", "-")}`}
           >
             <img
-              src={`/projects/${project.thumbnail}`}
+              src={getImagePath(project.folder!, project.thumbnail)}
               alt=""
               width={1000}
               height={1000}
