@@ -6,4 +6,5 @@ export type Project = {
   folder: string;
   thumbnail: string;
   gallery: string[];
+  content: { title: string; content: string }[];
 };

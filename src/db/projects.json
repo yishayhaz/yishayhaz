@@ -15,6 +15,20 @@
       "6.png",
       "7.png",
       "8.png"
+    ],
+    "content": [
+      {
+        "title": "About the project",
+        "content": "Shoppa is an innovative online e-commerce platform tailored to assist small businesses in swiftly establishing their online presence. With its unique marketplace feature, each business receives its own dedicated page for public advertising. The platform offers a user-friendly dashboard allowing businesses to efficiently manage various aspects of their store, including product inventory, customer interactions, order fulfillment, invoicing, campaign management, and more. Plus, with its seamless setup process, businesses can have their store up and running in no time."
+      },
+      {
+        "title": "My part",
+        "content": "I led the development effort at Shoppa, where I played a key role in bringing our online e-commerce platform to life. One of my major contributions was creating a versatile UI Library from scratch. This library became the backbone of our project, allowing us to build features quickly and efficiently. Additionally, I structured the online payment system to ensure seamless and secure transactions for our users. Finally, I innovated a fantastic tool for generating invoices with ease, making our invoicing process a breeze."
+      },
+      {
+        "title": "Challenges",
+        "content": "One of the significant challenges we encountered at Shoppa was refining the payment system. It required extensive effort and took considerable time, lasting days if not weeks, to devise an optimal strategy. However, I led the effort to simplify and improve the process, ultimately developing a more efficient solution.<br/><br/>Another challenge we faced was the need to efficiently develop multiple projects simultaneously while ensuring scalability. To address this, I took the initiative to create an exceptional UI library [(https://yasa-ui.netlify.app)](https://yasa-ui.netlify.app). This library not only facilitated rapid development but also ensured that projects were well-organized and scalable."
+      }
     ]
   },
   {
