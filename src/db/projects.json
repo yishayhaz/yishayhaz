@@ -4,7 +4,7 @@
     "name": "Shoppa",
     "timeline": "Jan - Nov 2023",
     "shortDescription": "An online ecommerce marketplace.",
-    "folder": "shoppa",
+    "id": "shoppa",
     "thumbnail": "shoppa.png",
     "content": [
       {
@@ -37,14 +37,44 @@
   {
     "cardHeight": 350,
     "name": "Proprep",
-    "folder": "proprep",
+    "id": "proprep",
     "shortDescription": "Study STEM online",
     "thumbnail": "proprep.png",
-    "timeline": "june 2022 - june 2023",
+    "timeline": "june - august 2022",
     "content": [
+      {
+        "title": "Visit Proprep",
+        "content": "<a href='https://proprep.com' target='_blank'>https://proprep.com</a>"
+      },
+      {
+        "title": "About the project",
+        "content": "Proprep is an innovative online learning platform tailored to the unique needs of university students studying STEM subjects. With access to over 60,000 videos, Proprep offers personalized learning experiences aligned with each student's university syllabus and textbooks. Whether it's calculus, physics, general chemistry, or more, Proprep provides on-demand access to educational content from esteemed lecturers, enabling students to enhance their understanding anytime, anywhere, and from any device."
+      },
+      {
+        "title": "My part",
+        "content": "As the sole front-end developer, I played a pivotal role in the development of ProPrep, tackling numerous challenges under significant time constraints, completing the project in less than two months. My responsibilities included building a robust design system, implementing a seamless payment system, integrating localizations for global accessibility, developing a sophisticated video player, and enhancing the platform with complex search capabilities, among other tasks. Despite the pressure, I successfully delivered a high-quality platform that met the diverse needs of our users."
+      },
       {
         "title": "Gallery",
         "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
+    "name": "3 Walls",
+    "id": "3-walls",
+    "shortDescription": "Immersive learning experience",
+    "thumbnail": "3walls.png",
+    "timeline": "9/2022 - 2/2024",
+    "content": [
+      {
+        "title": "Visit 3walls",
+        "content": "<a href='https://3walls.org' target='_blank'>https://3walls.org</a>"
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["1.mp4", "3.mp4"]
       }
     ]
   }

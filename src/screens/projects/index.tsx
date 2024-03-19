@@ -1,9 +1,8 @@
-import { component$, useTask$, useSignal } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import styles from "./style.module.scss";
-import type { Project } from "~/types";
 import projects from "~/db/projects.json";
-import { getImagePath } from "~/utils";
+import { getGalleryPath } from "~/utils";
 
 export const ProjectsScreen = component$(() => {
   return (
@@ -15,10 +14,10 @@ export const ProjectsScreen = component$(() => {
             class={styles.project}
             key={idx}
             style={{ height: project.cardHeight + "px" }}
-            href={`${project.name.toLowerCase().replaceAll(" ", "-")}`}
+            href={project.id}
           >
             <img
-              src={getImagePath(project.folder!, project.thumbnail)}
+              src={getGalleryPath(project.id, project.thumbnail)}
               alt=""
               width={1000}
               height={1000}

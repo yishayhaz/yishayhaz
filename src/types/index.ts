@@ -3,8 +3,8 @@ export type Project = {
   timeline: string;
   name: string;
   shortDescription: string;
-  folder: string;
+  id: string;
   thumbnail: string;
   gallery: string[];
-  content: { title: string; content?: string; gallery?: [] }[];
+  content: { title: string; content?: string; gallery?: string[] }[];
 };
