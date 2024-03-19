@@ -52,7 +52,6 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
-    "markdown-to-jsx": "^7.4.3",
-    "mdx-js-qwik": "^1.0.3"
+    "markdown-to-jsx": "^7.4.3"
   }
 }
