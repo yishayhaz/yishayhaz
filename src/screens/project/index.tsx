@@ -1,11 +1,12 @@
 import { $, component$, useSignal, useStore, useTask$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import styles from "./style.module.scss";
-import { getImagePath, mdStringToHtml, titleToId, titleize } from "~/utils";
+import { getImagePath, titleize } from "~/utils";
 import type { Project } from "~/types";
 import db from "~/db/projects.json";
 import { ImageModal } from "~/components/image_modal";
 import { Breadcrumbs } from "~/components/breadcrumbs";
+import { Markdown } from "~/components/markdown";
 
 export const ProjectScreen = component$(() => {
   const location = useLocation();
@@ -58,24 +59,28 @@ export const ProjectScreen = component$(() => {
               {content.title}
             </h2>
             {content.content && (
-              <p dangerouslySetInnerHTML={mdStringToHtml(content.content)} />
+              <div class={styles.content}>
+                <Markdown content={content.content} />
+              </div>
             )}
-            <div class={styles.gallery}>
-              {content.gallery?.map((path, idx) => (
-                <div
-                  key={idx}
-                  onClick$={() => {
-                    showImg.value = path;
-                  }}
-                >
-                  <img
-                    src={getImagePath(data.project.folder, path)}
-                    width={300}
-                    height={300}
-                  />
-                </div>
-              ))}
-            </div>
+            {content.gallery ? (
+              <div class={styles.gallery}>
+                {content.gallery.map((path, idx) => (
+                  <div
+                    key={idx}
+                    onClick$={() => {
+                      showImg.value = path;
+                    }}
+                  >
+                    <img
+                      src={getImagePath(data.project.folder, path)}
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                ))}
+              </div>
+            ) : null}
           </div>
         ))}
       </article>

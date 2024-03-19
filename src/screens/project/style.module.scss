@@ -30,9 +30,10 @@
         transition: opacity 0.3s;
       }
     }
-
-    & > p > a {
-      color: var(--primary-color);
+    .content {
+      a {
+        color: var(--primary-color);
+      }
     }
 
     .gallery {

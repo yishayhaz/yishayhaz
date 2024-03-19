@@ -6,7 +6,6 @@
     "shortDescription": "An online ecommerce marketplace.",
     "folder": "shoppa",
     "thumbnail": "shoppa.png",
-
     "content": [
       {
         "title": "About the project",
@@ -37,19 +36,16 @@
   },
   {
     "cardHeight": 350,
-    "name": "3 Walls",
-    "shortDescription": "An immersive learning expirence",
-    "thumbnail": "shoppa.png",
-    "timeline": "Oct 2022 - Present"
-  },
-  {
-    "cardHeight": 350,
     "name": "Proprep",
     "folder": "proprep",
     "shortDescription": "Study STEM online",
     "thumbnail": "proprep.png",
     "timeline": "june 2022 - june 2023",
-    "content": [],
-    "gallery": []
+    "content": [
+      {
+        "title": "Gallery",
+        "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+      }
+    ]
   }
 ]
