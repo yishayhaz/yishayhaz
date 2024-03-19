@@ -36,6 +36,36 @@
   },
   {
     "cardHeight": 350,
+    "name": "3 Walls",
+    "id": "3-walls",
+    "shortDescription": "Immersive learning experience",
+    "thumbnail": "3-walls.png",
+    "timeline": "9/2022 - 2/2024",
+    "content": [
+      {
+        "title": "Visit 3walls",
+        "content": "<a href='https://3walls.org' target='_blank'>https://3walls.org</a>"
+      },
+      {
+        "title": "About 3 Walls",
+        "content": "\"3-Walls\" introduces a groundbreaking software platform tailored for immersive learning environments. With synchronized screens spanning three walls, educators can captivate audiences with engaging and synchronized lessons. This innovative setup offers a visually stunning and interactive experience, perfect for classrooms, training sessions, or any educational setting aiming to enhance engagement and retention."
+      },
+      {
+        "title": "My part",
+        "content": "In the \"3-Walls\" project, I took charge of developing the software to showcase immersive lessons across synchronized screens. Alongside, I crafted a lecturer dashboard, enabling easy lesson creation and management. Additionally, I built an intuitive administrative interface for overseeing schools, users, lessons, categories, and other essential elements of the platform."
+      },
+      {
+        "title": "Challenges",
+        "content": "Creating the software for \"3-Walls\" posed unique challenges due to its niche nature. To overcome these hurdles, I embraced innovation and explored various technologies and approaches. Given the time constraints, optimizing the code for efficiency was paramount. I conducted extensive testing to find the optimal strategy, ensuring the solution not only worked swiftly but also remained scalable for accommodating diverse components."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["3-walls.png", "1.mp4", "2.jpg", "3.mp4", "4.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
     "name": "Proprep",
     "id": "proprep",
     "shortDescription": "Study STEM online",
@@ -62,31 +92,31 @@
   },
   {
     "cardHeight": 350,
-    "name": "3 Walls",
-    "id": "3-walls",
-    "shortDescription": "Immersive learning experience",
-    "thumbnail": "3-walls.png",
-    "timeline": "9/2022 - 2/2024",
+    "name": "Aba hatuv",
+    "id": "aba-hatuv",
+    "shortDescription": "A weight loss program.",
+    "thumbnail": "aba-hatuv.png",
+    "timeline": "2/2023 - 1/2024",
     "content": [
       {
-        "title": "Visit 3walls",
-        "content": "<a href='https://3walls.org' target='_blank'>https://3walls.org</a>"
+        "title": "Visit Aba Hatuv",
+        "content": "<a href='https://www.leptin4life.com' target='_blank'>https://www.leptin4life.com</a>"
       },
       {
-        "title": "About 3 Walls",
-        "content": "\"3-Walls\" introduces a groundbreaking software platform tailored for immersive learning environments. With synchronized screens spanning three walls, educators can captivate audiences with engaging and synchronized lessons. This innovative setup offers a visually stunning and interactive experience, perfect for classrooms, training sessions, or any educational setting aiming to enhance engagement and retention."
+        "title": "About Aba Hatuv",
+        "content": "Aba Hatuv (Fit Daddy) is a transformative weight loss program designed to support individuals on their journey to better health. Participants receive daily tailored content focusing on diet and healthy eating, supplemented by personalized coaching and progress tracking features. The program has yielded remarkable results, positively impacting the lives of its users, leading to significant improvements in health and well-being."
       },
       {
-        "title": "My part",
-        "content": "In the \"3-Walls\" project, I took charge of developing the software to showcase immersive lessons across synchronized screens. Alongside, I crafted a lecturer dashboard, enabling easy lesson creation and management. Additionally, I built an intuitive administrative interface for overseeing schools, users, lessons, categories, and other essential elements of the platform."
+        "title": "Work flow",
+        "content": "Our team for Aba Hatuv comprised frontend, backend, and mobile developers. The frontend segment demanded extensive effort, particularly under tight deadlines. Assigned the most demanding tasks, I managed to deliver ahead of schedule, despite the intense time pressure. Additionally, I provided support to the mobile development team, assisting them in overcoming their challenges. This collaborative workflow ensured successful delivery and highlighted our team's ability to adapt and excel in demanding situations."
       },
       {
         "title": "Challenges",
-        "content": "Creating the software for \"3-Walls\" posed unique challenges due to its niche nature. To overcome these hurdles, I embraced innovation and explored various technologies and approaches. Given the time constraints, optimizing the code for efficiency was paramount. I conducted extensive testing to find the optimal strategy, ensuring the solution not only worked swiftly but also remained scalable for accommodating diverse components."
+        "content": "The most significant challenge I tackled was developing the content creation system for Aba Hatuv. This system allowed admins to manage content using versatile content cards, incorporating various components and organizing them into customizable programs. Overcoming numerous technical hurdles such as *drag-and-drop* functionality, *complex state management*, and ensuring *live updates* presented a substantial challenge.<br/><br/>On the mobile app, I focused on developing user progress screens featuring visually appealing charts and content display screens built from flexible components, prioritizing fast user experience and content loading.<br/><br/>Additionally, I implemented the user-coach chat functionality, utilizing a plugin for seamless communication. My role involved developing the coach-side interface and internal chats for Aba Hatuv staff, leveraging my *expertise in UI/U* design to ensure intuitive and user-friendly interfaces."
       },
       {
         "title": "Gallery",
-        "gallery": ["3-walls.png", "1.mp4", "2.jpg", "3.mp4", "4.png"]
+        "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
       }
     ]
   }
