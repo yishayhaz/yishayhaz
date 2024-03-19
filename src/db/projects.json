@@ -8,7 +8,7 @@
     "thumbnail": "shoppa.png",
     "content": [
       {
-        "title": "About the project",
+        "title": "About Shoppa",
         "content": "Shoppa is an innovative online e-commerce platform tailored to assist small businesses in swiftly establishing their online presence. With its unique marketplace feature, each business receives its own dedicated page for public advertising. The platform offers a user-friendly dashboard allowing businesses to efficiently manage various aspects of their store, including product inventory, customer interactions, order fulfillment, invoicing, campaign management, and more. Plus, with its seamless setup process, businesses can have their store up and running in no time."
       },
       {
@@ -47,7 +47,7 @@
         "content": "<a href='https://proprep.com' target='_blank'>https://proprep.com</a>"
       },
       {
-        "title": "About the project",
+        "title": "About Proprep",
         "content": "Proprep is an innovative online learning platform tailored to the unique needs of university students studying STEM subjects. With access to over 60,000 videos, Proprep offers personalized learning experiences aligned with each student's university syllabus and textbooks. Whether it's calculus, physics, general chemistry, or more, Proprep provides on-demand access to educational content from esteemed lecturers, enabling students to enhance their understanding anytime, anywhere, and from any device."
       },
       {
@@ -65,7 +65,7 @@
     "name": "3 Walls",
     "id": "3-walls",
     "shortDescription": "Immersive learning experience",
-    "thumbnail": "3walls.png",
+    "thumbnail": "3-walls.png",
     "timeline": "9/2022 - 2/2024",
     "content": [
       {
@@ -73,8 +73,20 @@
         "content": "<a href='https://3walls.org' target='_blank'>https://3walls.org</a>"
       },
       {
+        "title": "About 3 Walls",
+        "content": "\"3-Walls\" introduces a groundbreaking software platform tailored for immersive learning environments. With synchronized screens spanning three walls, educators can captivate audiences with engaging and synchronized lessons. This innovative setup offers a visually stunning and interactive experience, perfect for classrooms, training sessions, or any educational setting aiming to enhance engagement and retention."
+      },
+      {
+        "title": "My part",
+        "content": "In the \"3-Walls\" project, I took charge of developing the software to showcase immersive lessons across synchronized screens. Alongside, I crafted a lecturer dashboard, enabling easy lesson creation and management. Additionally, I built an intuitive administrative interface for overseeing schools, users, lessons, categories, and other essential elements of the platform."
+      },
+      {
+        "title": "Challenges",
+        "content": "Creating the software for \"3-Walls\" posed unique challenges due to its niche nature. To overcome these hurdles, I embraced innovation and explored various technologies and approaches. Given the time constraints, optimizing the code for efficiency was paramount. I conducted extensive testing to find the optimal strategy, ensuring the solution not only worked swiftly but also remained scalable for accommodating diverse components."
+      },
+      {
         "title": "Gallery",
-        "gallery": ["1.mp4", "3.mp4"]
+        "gallery": ["3-walls.png", "1.mp4", "2.jpg", "3.mp4", "4.png"]
       }
     ]
   }
