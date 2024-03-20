@@ -119,5 +119,61 @@
         "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
       }
     ]
+  },
+  {
+    "cardHeight": 350,
+    "name": "Yasa UI",
+    "id": "yasa-ui",
+    "shortDescription": "An awesome UI library",
+    "thumbnail": "yasa-ui.png",
+    "timeline": "4/2023 - 8/2024",
+    "content": [
+      {
+        "title": "Visit Yasa UI",
+        "content": "<a href='https://yasa-ui.netlify.app' target='_blank'>https://yasa-ui.netlify.app</a>"
+      },
+      {
+        "title": "About Yasa UI",
+        "content": "Yasa UI is an awesome UI library built with React & Sass for quick development of management system, including complex components for forms, tables, paginations. Yasa UI supports RTL & color themes out of the box, and it is truly a time saver"
+      },
+      {
+        "title": "Agenda",
+        "content": "In my career I found developing certian components to  be repetative, after I perfected the development of those componenst (tables, forms, pagination, etc.) it was time to put all my knowledge into one awesome & resusable project. It was originaly built for <a href='/projects/shoppa'>Shoppa</a>, but since then I used it on countless projects"
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["1.png", "2.png", "3.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
+    "name": "Rabinovich",
+    "id": "rabinovich",
+    "shortDescription": "Foundation",
+    "thumbnail": "rabinovich.png",
+    "timeline": "5/2022 - 7/2022",
+    "content": [
+      {
+        "title": "Visit Rabinovich",
+        "content": ""
+      },
+      {
+        "title": "About Rabinovich",
+        "content": ""
+      },
+      {
+        "title": "My role",
+        "content": ""
+      },
+      {
+        "title": "Challenges",
+        "content": ""
+      },
+      {
+        "title": "Gallery",
+        "gallery": []
+      }
+    ]
   }
 ]

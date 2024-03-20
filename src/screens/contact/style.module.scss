@@ -1,0 +1,11 @@
+.contact_screen {
+  min-height: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 3rem;
+
+  padding: 15vh var(--page-padding-inline);
+}
