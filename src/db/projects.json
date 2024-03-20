@@ -6,6 +6,7 @@
     "shortDescription": "An online ecommerce marketplace.",
     "id": "shoppa",
     "thumbnail": "shoppa.png",
+    "tags": ["Frontend", "UI\\UX"],
     "content": [
       {
         "title": "About Shoppa",
