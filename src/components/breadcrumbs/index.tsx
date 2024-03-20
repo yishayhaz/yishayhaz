@@ -1,6 +1,6 @@
 import { Link } from "@builder.io/qwik-city";
 import styles from "./style.module.scss";
-import { component$, $, QwikMouseEvent } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 
 export type BreadcrumbsProps = {
   links: { href?: string; label: string }[];
