@@ -34,6 +34,33 @@
       }
     ]
   },
+
+  {
+    "cardHeight": 350,
+    "name": "Proprep",
+    "id": "proprep",
+    "shortDescription": "Study STEM online",
+    "thumbnail": "proprep.png",
+    "timeline": "june - august 2022",
+    "content": [
+      {
+        "title": "Visit Proprep",
+        "content": "<a href='https://proprep.com' target='_blank'>https://proprep.com</a>"
+      },
+      {
+        "title": "About Proprep",
+        "content": "Proprep is an innovative online learning platform tailored to the unique needs of university students studying STEM subjects. With access to over 60,000 videos, Proprep offers personalized learning experiences aligned with each student's university syllabus and textbooks. Whether it's calculus, physics, general chemistry, or more, Proprep provides on-demand access to educational content from esteemed lecturers, enabling students to enhance their understanding anytime, anywhere, and from any device."
+      },
+      {
+        "title": "My part",
+        "content": "As the sole front-end developer, I played a pivotal role in the development of ProPrep, tackling numerous challenges under significant time constraints, completing the project in less than two months. My responsibilities included building a robust design system, implementing a seamless payment system, integrating localizations for global accessibility, developing a sophisticated video player, and enhancing the platform with complex search capabilities, among other tasks. Despite the pressure, I successfully delivered a high-quality platform that met the diverse needs of our users."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+      }
+    ]
+  },
   {
     "cardHeight": 350,
     "name": "3 Walls",
@@ -66,32 +93,6 @@
   },
   {
     "cardHeight": 350,
-    "name": "Proprep",
-    "id": "proprep",
-    "shortDescription": "Study STEM online",
-    "thumbnail": "proprep.png",
-    "timeline": "june - august 2022",
-    "content": [
-      {
-        "title": "Visit Proprep",
-        "content": "<a href='https://proprep.com' target='_blank'>https://proprep.com</a>"
-      },
-      {
-        "title": "About Proprep",
-        "content": "Proprep is an innovative online learning platform tailored to the unique needs of university students studying STEM subjects. With access to over 60,000 videos, Proprep offers personalized learning experiences aligned with each student's university syllabus and textbooks. Whether it's calculus, physics, general chemistry, or more, Proprep provides on-demand access to educational content from esteemed lecturers, enabling students to enhance their understanding anytime, anywhere, and from any device."
-      },
-      {
-        "title": "My part",
-        "content": "As the sole front-end developer, I played a pivotal role in the development of ProPrep, tackling numerous challenges under significant time constraints, completing the project in less than two months. My responsibilities included building a robust design system, implementing a seamless payment system, integrating localizations for global accessibility, developing a sophisticated video player, and enhancing the platform with complex search capabilities, among other tasks. Despite the pressure, I successfully delivered a high-quality platform that met the diverse needs of our users."
-      },
-      {
-        "title": "Gallery",
-        "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
-      }
-    ]
-  },
-  {
-    "cardHeight": 350,
     "name": "Aba hatuv",
     "id": "aba-hatuv",
     "shortDescription": "A weight loss program.",
@@ -116,7 +117,7 @@
       },
       {
         "title": "Gallery",
-        "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+        "gallery": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
       }
     ]
   },
@@ -142,7 +143,7 @@
       },
       {
         "title": "Gallery",
-        "gallery": ["1.png", "2.png", "3.png"]
+        "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
       }
     ]
   },
@@ -156,23 +157,23 @@
     "content": [
       {
         "title": "Visit Rabinovich",
-        "content": ""
+        "content": "<a href='https://www.rabinovichfoundation.org.il' target='_blank'>https://www.rabinovichfoundation.org.il</a><br/><a href='https://www.youtube.com/watch?v=Z8sPTNM9SUY' target='_blank'>Movie example - לשחרר את שולי</a>"
       },
       {
         "title": "About Rabinovich",
-        "content": ""
+        "content": "Rabinovich is a foundation that assists artists in funding film projects, providing financial support and resources to bring creative visions to life on the big screen."
       },
       {
         "title": "My role",
-        "content": ""
+        "content": "As the sole frontend developer for Rabinovich, my focus was on crafting dashboard screens tailored for admins. These screens facilitated essential tasks such as managing movie applications, lectures, funding, assigning reviews, and overseeing user management. Leveraging my expertise in frontend development, I ensured these interfaces were intuitive, user-friendly, and efficiently supported the foundation's operations."
       },
       {
         "title": "Challenges",
-        "content": ""
+        "content": "One of the main challenges I faced was handling large, complex, and stateful forms used by both administrators for creation and individuals for submission. I had to ensure effective display, validation, and usability to accommodate these dual roles seamlessly."
       },
       {
         "title": "Gallery",
-        "gallery": []
+        "gallery": ["rabinovich.png"]
       }
     ]
   }

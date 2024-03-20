@@ -3,7 +3,7 @@ import styles from "./style.module.scss";
 import { Socials } from "~/components/socials";
 import { Breadcrumbs } from "~/components/breadcrumbs";
 
-export const ContactScreen = component$(() => {
+export const ReachOutScreen = component$(() => {
   return (
     <section class={styles.contact_screen}>
       <Breadcrumbs
@@ -13,11 +13,11 @@ export const ContactScreen = component$(() => {
             href: "/",
           },
           {
-            label: "Contact me",
+            label: "Reach out",
           },
         ]}
       />
-      <h1>Contact me.</h1>
+      <h1>Reach out.</h1>
       <Socials />
     </section>
   );

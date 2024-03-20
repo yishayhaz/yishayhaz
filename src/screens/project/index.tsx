@@ -105,7 +105,7 @@ export const ProjectScreen = component$(() => {
           </div>
         ))}
         <div class={styles.contact}>
-          <a href="/contact">Contact me</a>
+          <a href="/reach-out">Reach out</a>
         </div>
       </article>
     </>
