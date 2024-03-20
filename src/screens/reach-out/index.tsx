@@ -17,7 +17,14 @@ export const ReachOutScreen = component$(() => {
           },
         ]}
       />
-      <h1>Reach out.</h1>
+      <article>
+        <h1>Reach out.</h1>
+        <p>
+          Want to talk about a project? Or just want to say hi?
+          <br />
+          Let's connect.
+        </p>
+      </article>
       <Socials />
     </section>
   );

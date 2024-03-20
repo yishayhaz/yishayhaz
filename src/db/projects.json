@@ -6,7 +6,7 @@
     "shortDescription": "An online ecommerce marketplace.",
     "id": "shoppa",
     "thumbnail": "shoppa.png",
-    "tags": ["Frontend", "UI\\UX"],
+    "tags": ["frontend", "ui-ux"],
     "content": [
       {
         "title": "About Shoppa",
@@ -43,6 +43,7 @@
     "shortDescription": "Study STEM online",
     "thumbnail": "proprep.png",
     "timeline": "june - august 2022",
+    "tags": ["frontend"],
     "content": [
       {
         "title": "Visit Proprep",
@@ -69,6 +70,7 @@
     "shortDescription": "Immersive learning experience",
     "thumbnail": "3-walls.png",
     "timeline": "9/2022 - 2/2024",
+    "tags": ["software", "frontend", "ui-ux"],
     "content": [
       {
         "title": "Visit 3walls",
@@ -99,6 +101,7 @@
     "shortDescription": "A weight loss program.",
     "thumbnail": "aba-hatuv.png",
     "timeline": "2/2023 - 1/2024",
+    "tags": ["mobile", "frontend"],
     "content": [
       {
         "title": "Visit Aba Hatuv",
@@ -129,6 +132,7 @@
     "shortDescription": "An awesome UI library",
     "thumbnail": "yasa-ui.png",
     "timeline": "4/2023 - 8/2024",
+    "tags": ["frontend", "ui-ux"],
     "content": [
       {
         "title": "Visit Yasa UI",
@@ -155,6 +159,7 @@
     "shortDescription": "Foundation",
     "thumbnail": "rabinovich.png",
     "timeline": "5/2022 - 7/2022",
+    "tags": ["frontend"],
     "content": [
       {
         "title": "Visit Rabinovich",
