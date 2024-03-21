@@ -6,7 +6,7 @@
     "shortDescription": "An online ecommerce marketplace.",
     "id": "shoppa",
     "thumbnail": "shoppa.png",
-    "tags": ["frontend", "ui-ux"],
+    "tags": ["open-source", "frontend", "ui-ux"],
     "content": [
       {
         "title": "Visit Shoppa",
@@ -207,6 +207,21 @@
       {
         "title": "Gallery",
         "gallery": ["1.png", "2.png", "3.png", "timeless.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
+    "name": "React beautiful carousel",
+    "id": "react-beautiful-carousel",
+    "shortDescription": "A beautiful carousel component",
+    "thumbnail": "react-beautiful-carousel.png",
+    "timeline": "2/2024",
+    "tags": ["open-source", "fun", "frontend"],
+    "content": [
+      {
+        "title": "Visit React beautiful carousel",
+        "content": "<a href='https://github.com/yishayhaz/react-beautiful-carousel' target='_blank'>https://github.com/yishayhaz/react-beautiful-carousel</a><br/><br/>Check out the demo <a href='https://codesandbox.io/p/sandbox/react-beautiful-carousel-basic-example-90k9er' target='_blank'>here</a><br/><br/>or on <a href='https://www.npmjs.com/package/react-beautiful-carousel' target='_blank'>NPM</a>"
       }
     ]
   }
