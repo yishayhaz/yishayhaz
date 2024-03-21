@@ -49,6 +49,11 @@ export const ProjectScreen = component$(() => {
           ]}
         />
         <div class={styles.block}>
+          <div class={styles.tags}>
+            {data.project.tags.map((tag, idx) => (
+              <span key={idx}>#{tag}</span>
+            ))}
+          </div>
           <h1>{titleize(data.project.name)}</h1>
           <span>{data.project.timeline}</span>
         </div>

@@ -9,6 +9,10 @@
     "tags": ["frontend", "ui-ux"],
     "content": [
       {
+        "title": "Visit Shoppa",
+        "content": "<a href='https://shoppa-welcome.netlify.app' target='_blank'>https://shoppa-welcome.netlify.app</a>"
+      },
+      {
         "title": "About Shoppa",
         "content": "Shoppa is an innovative online e-commerce platform tailored to assist small businesses in swiftly establishing their online presence. With its unique marketplace feature, each business receives its own dedicated page for public advertising. The platform offers a user-friendly dashboard allowing businesses to efficiently manage various aspects of their store, including product inventory, customer interactions, order fulfillment, invoicing, campaign management, and more. Plus, with its seamless setup process, businesses can have their store up and running in no time."
       },
@@ -180,6 +184,29 @@
       {
         "title": "Gallery",
         "gallery": ["rabinovich.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
+    "name": "Timeless",
+    "id": "timeless",
+    "shortDescription": "Time is an interesting thing",
+    "thumbnail": "timeless.png",
+    "timeline": "2/2024",
+    "tags": ["fun", "frontend", "ui-ux"],
+    "content": [
+      {
+        "title": "Visit Timeless",
+        "content": "<a href='https://time-less.netlify.app' target='_blank'>https://time-less.netlify.app</a>"
+      },
+      {
+        "title": "Why Timeless?",
+        "content": "I find time to be a very interesting concept that I can't wrap my head around. I wanted to create a fun project that will help me value my time and understand it better. Timeless is a fun project that helps you understand time in a different way."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["1.png", "2.png", "3.png", "timeless.png"]
       }
     ]
   }

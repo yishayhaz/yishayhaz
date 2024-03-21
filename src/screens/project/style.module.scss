@@ -1,7 +1,11 @@
 .project_screen {
   padding: 3rem var(--page-padding-inline);
   gap: 3rem;
-
+  .tags {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
   .contact {
     display: grid;
     place-items: center;
