@@ -34,15 +34,20 @@
 
   .projects {
     @media (min-width: 768px) {
-      column-count: 2;
-      column-gap: 2rem;
+      // column-count: 2;
+      // column-gap: 2rem;
+
+      grid-template-columns: 1fr 1fr;
     }
+
+    display: grid;
+    gap: 2rem;
 
     .project {
       position: relative;
       isolation: isolate;
       cursor: pointer;
-      margin-bottom: 2rem;
+      // margin-bottom: 2rem;
 
       display: flex;
       flex-direction: column;

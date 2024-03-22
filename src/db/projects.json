@@ -222,6 +222,60 @@
       {
         "title": "Visit React beautiful carousel",
         "content": "<a href='https://github.com/yishayhaz/react-beautiful-carousel' target='_blank'>https://github.com/yishayhaz/react-beautiful-carousel</a><br/><br/>Check out the demo <a href='https://codesandbox.io/p/sandbox/react-beautiful-carousel-basic-example-90k9er' target='_blank'>here</a><br/><br/>or on <a href='https://www.npmjs.com/package/react-beautiful-carousel' target='_blank'>NPM</a>"
+      },
+      {
+        "title": "Why and how?",
+        "content": "React Beautiful Carousel is an open-source project I developed to create visually stunning carousels. It features support for drag functionality, navigation arrows, dots, and even Right-to-Left (RTL) support out of the box."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["react-beautiful-carousel.png", "1.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
+    "name": "Tacj",
+    "id": "tacj",
+    "shortDescription": "Beautiful text animations",
+    "thumbnail": "tacj.png",
+    "timeline": "2/2022",
+    "tags": ["open-source", "fun", "frontend"],
+    "content": [
+      {
+        "title": "Visit Tacj",
+        "content": "<a href='https://github.com/yishayhaz/tacj' target='_blank'>on GitHub</a> or <a href='https://www.npmjs.com/package/tacj' target='_blank'>on NPM</a><br/><br/>I used Tacj on my old Portfolio, <a href='https://yishay-hazan-old.netlify.app' target='_blank'>check it out</a>"
+      },
+      {
+        "title": "About Tacj",
+        "content": "Tacj is a fun open-source project I developed to create beautiful text animations. It features a variety of animations, including typing, deleting, and more, to enhance the visual appeal of text on websites."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["tacj.png", "1.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
+    "name": "My old Portfolio",
+    "id": "old-portfolio",
+    "shortDescription": "Just my old portfolio",
+    "thumbnail": "old-portfolio.png",
+    "timeline": "2/2022",
+    "tags": ["fun", "frontend"],
+    "content": [
+      {
+        "title": "Visit my old Portfolio",
+        "content": "<a href='https://yishay-hazan-old.netlify.app' target='_blank'>https://yishay-hazan-old.netlify.app</a>"
+      },
+      {
+        "title": "About my old Portfolio",
+        "content": "My old portfolio was a fun project I developed to showcase my skills and projects. It features a variety of animations, including Tacj, to enhance the visual appeal of the text. The portfolio also includes a variety of projects I've worked on, providing a comprehensive overview of my capabilities."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["old-portfolio.png", "1.png", "2.png", "3.png", "4.png"]
       }
     ]
   }

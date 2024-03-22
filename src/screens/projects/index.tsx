@@ -58,7 +58,7 @@ export const ProjectsScreen = component$(() => {
         {_projects.value.map((project, idx) => (
           <Link
             class={styles.project}
-            key={idx}
+            key={project.id}
             style={{ height: project.cardHeight + "px" }}
             href={project.id}
           >
