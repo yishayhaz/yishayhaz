@@ -42,9 +42,9 @@ export const ProjectsScreen = component$(() => {
     <section class={styles.projects_screen}>
       <h1>Projects.</h1>
       <div class={styles.tags}>
-        {tags.value.map((tag, idx) => (
+        {tags.value.map((tag) => (
           <button
-            key={idx}
+            key={tag}
             onClick$={() => {
               setFilter(tag);
             }}
@@ -55,7 +55,7 @@ export const ProjectsScreen = component$(() => {
         ))}
       </div>
       <div class={styles.projects}>
-        {_projects.value.map((project, idx) => (
+        {_projects.value.map((project) => (
           <Link
             class={styles.project}
             key={project.id}
