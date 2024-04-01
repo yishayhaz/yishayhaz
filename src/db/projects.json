@@ -1,47 +1,6 @@
 [
   {
     "cardHeight": 350,
-    "name": "Shoppa",
-    "timeline": "Jan - Nov 2023",
-    "shortDescription": "An online ecommerce marketplace.",
-    "id": "shoppa",
-    "thumbnail": "shoppa.png",
-    "tags": ["open-source", "frontend", "ui-ux"],
-    "content": [
-      {
-        "title": "Visit Shoppa",
-        "content": "<a href='https://shoppa-welcome.netlify.app' target='_blank'>https://shoppa-welcome.netlify.app</a>"
-      },
-      {
-        "title": "About Shoppa",
-        "content": "Shoppa is an innovative online e-commerce platform tailored to assist small businesses in swiftly establishing their online presence. With its unique marketplace feature, each business receives its own dedicated page for public advertising. The platform offers a user-friendly dashboard allowing businesses to efficiently manage various aspects of their store, including product inventory, customer interactions, order fulfillment, invoicing, campaign management, and more. Plus, with its seamless setup process, businesses can have their store up and running in no time."
-      },
-      {
-        "title": "My part",
-        "content": "I led the development effort at Shoppa, where I played a key role in bringing our online e-commerce platform to life. One of my major contributions was creating a versatile UI Library from scratch. This library became the backbone of our project, allowing us to build features quickly and efficiently. Additionally, I structured the online payment system to ensure seamless and secure transactions for our users. Finally, I innovated a fantastic tool for generating invoices with ease, making our invoicing process a breeze."
-      },
-      {
-        "title": "Challenges",
-        "content": "One of the significant challenges we encountered at Shoppa was refining the payment system. It required extensive effort and took considerable time, lasting days if not weeks, to devise an optimal strategy. However, I led the effort to simplify and improve the process, ultimately developing a more efficient solution.<br/><br/>Another challenge we faced was the need to efficiently develop multiple projects simultaneously while ensuring scalability. To address this, I took the initiative to create an exceptional UI library [(https://yasa-ui.netlify.app)](https://yasa-ui.netlify.app). This library not only facilitated rapid development but also ensured that projects were well-organized and scalable."
-      },
-      {
-        "title": "Gallery",
-        "gallery": [
-          "1.png",
-          "2.png",
-          "3.png",
-          "4.png",
-          "5.png",
-          "6.png",
-          "7.png",
-          "8.png"
-        ]
-      }
-    ]
-  },
-
-  {
-    "cardHeight": 350,
     "name": "Proprep",
     "id": "proprep",
     "shortDescription": "Study STEM online",
@@ -67,34 +26,27 @@
       }
     ]
   },
+
   {
     "cardHeight": 350,
-    "name": "3 Walls",
-    "id": "3-walls",
-    "shortDescription": "Immersive learning experience",
-    "thumbnail": "3-walls.png",
-    "timeline": "9/2022 - 2/2024",
-    "tags": ["software", "frontend", "ui-ux"],
+    "name": "Saitlabs",
+    "timeline": "May - Jun 2022",
+    "shortDescription": "A landing page for a software company I worked for.",
+    "id": "saitlabs",
+    "thumbnail": "saitlabs.png",
+    "tags": ["frontend", "CSS"],
     "content": [
       {
-        "title": "Visit 3walls",
-        "content": "<a href='https://3walls.org' target='_blank'>https://3walls.org</a>"
+        "title": "Visit Saitlabs",
+        "content": "<a href='https://saitlabs.com' target='_blank'>https://saitlabs.com</a>"
       },
       {
-        "title": "About 3 Walls",
-        "content": "\"3-Walls\" introduces a groundbreaking software platform tailored for immersive learning environments. With synchronized screens spanning three walls, educators can captivate audiences with engaging and synchronized lessons. This innovative setup offers a visually stunning and interactive experience, perfect for classrooms, training sessions, or any educational setting aiming to enhance engagement and retention."
-      },
-      {
-        "title": "My part",
-        "content": "In the \"3-Walls\" project, I took charge of developing the software to showcase immersive lessons across synchronized screens. Alongside, I crafted a lecturer dashboard, enabling easy lesson creation and management. Additionally, I built an intuitive administrative interface for overseeing schools, users, lessons, categories, and other essential elements of the platform."
-      },
-      {
-        "title": "Challenges",
-        "content": "Creating the software for \"3-Walls\" posed unique challenges due to its niche nature. To overcome these hurdles, I embraced innovation and explored various technologies and approaches. Given the time constraints, optimizing the code for efficiency was paramount. I conducted extensive testing to find the optimal strategy, ensuring the solution not only worked swiftly but also remained scalable for accommodating diverse components."
+        "title": "The project & my role",
+        "content": "Saitlabs is a software company that specializes in developing innovative solutions for businesses. I was tasked with creating a landing page for the company, showcasing its services and expertise. My role involved designing and developing the page from scratch, ensuring it was visually appealing, user-friendly, and effectively communicated the company's offerings to potential clients."
       },
       {
         "title": "Gallery",
-        "gallery": ["3-walls.png", "2.jpg", "4.png"]
+        "gallery": ["1.png", "2.png", "3.png", "4.png"]
       }
     ]
   },
@@ -131,12 +83,84 @@
   },
   {
     "cardHeight": 350,
+    "name": "3 Walls",
+    "id": "3-walls",
+    "shortDescription": "Immersive learning experience",
+    "thumbnail": "3-walls.png",
+    "timeline": "9/2022 - 2/2024",
+    "tags": ["software", "frontend", "CSS"],
+    "content": [
+      {
+        "title": "Visit 3walls",
+        "content": "<a href='https://3walls.org' target='_blank'>https://3walls.org</a>"
+      },
+      {
+        "title": "About 3 Walls",
+        "content": "\"3-Walls\" introduces a groundbreaking software platform tailored for immersive learning environments. With synchronized screens spanning three walls, educators can captivate audiences with engaging and synchronized lessons. This innovative setup offers a visually stunning and interactive experience, perfect for classrooms, training sessions, or any educational setting aiming to enhance engagement and retention."
+      },
+      {
+        "title": "My part",
+        "content": "In the \"3-Walls\" project, I took charge of developing the software to showcase immersive lessons across synchronized screens. Alongside, I crafted a lecturer dashboard, enabling easy lesson creation and management. Additionally, I built an intuitive administrative interface for overseeing schools, users, lessons, categories, and other essential elements of the platform."
+      },
+      {
+        "title": "Challenges",
+        "content": "Creating the software for \"3-Walls\" posed unique challenges due to its niche nature. To overcome these hurdles, I embraced innovation and explored various technologies and approaches. Given the time constraints, optimizing the code for efficiency was paramount. I conducted extensive testing to find the optimal strategy, ensuring the solution not only worked swiftly but also remained scalable for accommodating diverse components."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["3-walls.png", "2.jpg", "4.png"]
+      }
+    ]
+  },
+
+  {
+    "cardHeight": 350,
+    "name": "Shoppa",
+    "timeline": "Jan - Nov 2023",
+    "shortDescription": "An online ecommerce marketplace.",
+    "id": "shoppa",
+    "thumbnail": "shoppa.png",
+    "tags": ["open-source", "frontend", "CSS"],
+    "content": [
+      {
+        "title": "Visit Shoppa",
+        "content": "<a href='https://shoppa-welcome.netlify.app' target='_blank'>https://shoppa-welcome.netlify.app</a>"
+      },
+      {
+        "title": "About Shoppa",
+        "content": "Shoppa is an innovative online e-commerce platform tailored to assist small businesses in swiftly establishing their online presence. With its unique marketplace feature, each business receives its own dedicated page for public advertising. The platform offers a user-friendly dashboard allowing businesses to efficiently manage various aspects of their store, including product inventory, customer interactions, order fulfillment, invoicing, campaign management, and more. Plus, with its seamless setup process, businesses can have their store up and running in no time."
+      },
+      {
+        "title": "My part",
+        "content": "I led the development effort at Shoppa, where I played a key role in bringing our online e-commerce platform to life. One of my major contributions was creating a versatile UI Library from scratch. This library became the backbone of our project, allowing us to build features quickly and efficiently. Additionally, I structured the online payment system to ensure seamless and secure transactions for our users. Finally, I innovated a fantastic tool for generating invoices with ease, making our invoicing process a breeze."
+      },
+      {
+        "title": "Challenges",
+        "content": "One of the significant challenges we encountered at Shoppa was refining the payment system. It required extensive effort and took considerable time, lasting days if not weeks, to devise an optimal strategy. However, I led the effort to simplify and improve the process, ultimately developing a more efficient solution.<br/><br/>Another challenge we faced was the need to efficiently develop multiple projects simultaneously while ensuring scalability. To address this, I took the initiative to create an exceptional UI library [(https://yasa-ui.netlify.app)](https://yasa-ui.netlify.app). This library not only facilitated rapid development but also ensured that projects were well-organized and scalable."
+      },
+      {
+        "title": "Gallery",
+        "gallery": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png",
+          "5.png",
+          "6.png",
+          "7.png",
+          "8.png"
+        ]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
     "name": "Yasa UI",
     "id": "yasa-ui",
     "shortDescription": "An awesome UI library",
     "thumbnail": "yasa-ui.png",
     "timeline": "4/2023 - 8/2024",
-    "tags": ["frontend", "ui-ux"],
+    "tags": ["open-source", "frontend", "CSS"],
     "content": [
       {
         "title": "Visit Yasa UI",
@@ -194,7 +218,7 @@
     "shortDescription": "Time is an interesting thing",
     "thumbnail": "timeless.png",
     "timeline": "2/2024",
-    "tags": ["fun", "frontend", "ui-ux"],
+    "tags": ["fun", "frontend", "CSS"],
     "content": [
       {
         "title": "Visit Timeless",
