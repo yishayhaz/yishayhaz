@@ -11,7 +11,7 @@ import projects from "~/db/projects.json";
 import { getGalleryPath } from "~/utils";
 
 export const ProjectsScreen = component$(() => {
-  const filter = useSignal("all");
+  const filter = useSignal("frontend");
 
   const setFilter = $((tag: string) => {
     window.location.hash = tag;
@@ -41,6 +41,11 @@ export const ProjectsScreen = component$(() => {
   return (
     <section class={styles.projects_screen}>
       <h1>Projects.</h1>
+      <p>
+        I've had the chance to work on all sorts of projects, both for work and
+        just for fun. From websites and dashboards to mobile apps, data science,
+        ML and even games, I've enjoyed diving into a wide range of platforms.
+      </p>
       <div class={styles.tags}>
         {tags.value.map((tag) => (
           <button

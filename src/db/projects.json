@@ -1,6 +1,41 @@
 [
   {
     "cardHeight": 350,
+    "name": "Sensos",
+    "id": "sensos",
+    "shortDescription": "Smart labels for logistics",
+    "thumbnail": "sensos.png",
+    "timeline": "May 2024 - Present",
+    "tags": ["frontend"],
+    "content": [
+      {
+        "title": "Visit Sensos",
+        "content": "<a href='https://sensos.io' target='_blank'>https://sensos.io</a>"
+      },
+      {
+        "title": "About Sensos",
+        "content": "Sensos is a cutting-edge technology company specializing in smart labels for logistics. These innovative labels provide real-time tracking and monitoring temperature, location, and tampering."
+      },
+      {
+        "title": "My part",
+        "content": "I was brought on to reinforce Sensors' frontend team, my work included architecting new components, maintaining and optimizing existing ones, and improving the overall codebase for better performance and scalability. I also contributed to UI/UX discussions, ensuring that the technical solutions aligned with user needs, design principles and industry standards, resulting in a powerfull and user-friendly product."
+      },
+      {
+        "title": "Gallery",
+        "gallery": [
+          "sensos.png",
+          "1.png",
+          "3.svg",
+          "4.svg",
+          "2.png",
+          "4.png",
+          "5.png"
+        ]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
     "name": "Proprep",
     "id": "proprep",
     "shortDescription": "Study STEM online",
@@ -226,7 +261,7 @@
       },
       {
         "title": "Why Timeless?",
-        "content": "I find time to be a very interesting concept that I can't wrap my head around. I wanted to create a fun project that will help me value my time and understand it better. Timeless is a fun project that helps you understand time in a different way."
+        "content": "I find time to be a very interesting concept that I can't wrap my head around. I wanted to create a fun project that will help me value my time and understand it better. Timeless should help you understand time in a different way."
       },
       {
         "title": "Gallery",

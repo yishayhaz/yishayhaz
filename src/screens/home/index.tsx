@@ -10,23 +10,15 @@ export const HomeScreen = component$(() => {
         <span>about me.</span>
       </div>
       <section class={styles.home_screen}>
-        <div class={styles.content}>
-          <h1>im yishay hazan</h1>
-          <p>
-            Hey there! I'm Yishay, an experienced developer specializing in
-            building design systems for large & complex projects. My background
-            spans full-stack applications, mobile apps, and software. That's
-            just the professional part ;) in my free time, I played with tons of
-            technology!
-            <br />
-            <br />I spend my days doing what I love—volunteering to teach
-            children English and math, playing football, going for runs (21km
-            soon!), taking a medics course, and diving into discussions on
-            philosophy, psychology, and anything that teases my mind.
-          </p>
-        </div>
+        <h1>im yishay hazan</h1>
+        <p>
+          Hey there! I'm Yishay, an experienced developer specializing in
+          building design systems for large & complex projects. My background
+          spans full-stack applications, mobile apps, and software. in my free
+          time, I played with tons of technologies and frameworks!
+        </p>
         <Link href="/projects">
-          Read about my work
+          See my work
           <svg
             stroke="currentColor"
             fill="currentColor"
