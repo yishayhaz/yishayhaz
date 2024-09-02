@@ -7,15 +7,16 @@ export const HomeScreen = component$(() => {
   return (
     <>
       <div class="watermark">
-        <span>about me.</span>
+        <span>yishay hazan.</span>
       </div>
       <section class={styles.home_screen}>
         <h1>im yishay hazan</h1>
         <p>
           Hey there! I'm Yishay, an experienced developer specializing in
-          building design systems for large & complex projects. My background
-          spans full-stack applications, mobile apps, and software. in my free
-          time, I played with tons of technologies and frameworks!
+          frontend and specifically in building design systems for large &
+          complex projects. My background spans full-stack applications, mobile
+          apps, and software. in my free time, I played with tons of
+          technologies and frameworks!
         </p>
         <Link href="/projects">
           See my work

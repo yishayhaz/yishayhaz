@@ -20,12 +20,22 @@ export const ProjectsScreen = component$(() => {
   });
 
   const tags = useComputed$(() => {
-    return ["all", ...new Set(projects.flatMap((project) => project.tags))];
+    return [
+      "all",
+      ...new Set(
+        projects
+          .filter((project) => project.hidden !== true)
+          .flatMap((project) => project.tags)
+      ),
+    ];
   });
 
-  const _projects = useComputed$(() => {
-    if (filter.value === "all") return projects;
-    return projects.filter((project) => project.tags.includes(filter.value));
+  const filteredProjects = useComputed$(() => {
+    return projects.filter(
+      (project) =>
+        project.hidden !== true &&
+        (filter.value === "all" || project.tags.includes(filter.value))
+    );
   });
 
   useVisibleTask$(({ cleanup }) => {
@@ -44,7 +54,8 @@ export const ProjectsScreen = component$(() => {
       <p>
         I've had the chance to work on all sorts of projects, both for work and
         just for fun. From websites and dashboards to mobile apps, data science,
-        ML and even games, I've enjoyed diving into a wide range of platforms.
+        ML and even games, I've enjoyed diving into a wide range of
+        technologies.
       </p>
       <div class={styles.tags}>
         {tags.value.map((tag) => (
@@ -60,7 +71,7 @@ export const ProjectsScreen = component$(() => {
         ))}
       </div>
       <div class={styles.projects}>
-        {_projects.value.map((project) => (
+        {filteredProjects.value.map((project) => (
           <Link
             class={styles.project}
             key={project.id}

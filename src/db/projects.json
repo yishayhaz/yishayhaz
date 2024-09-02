@@ -5,7 +5,7 @@
     "id": "sensos",
     "shortDescription": "Smart labels for logistics",
     "thumbnail": "sensos.png",
-    "timeline": "May 2024 - Present",
+    "timeline": "April 2024 - Present",
     "tags": ["frontend"],
     "content": [
       {
@@ -61,7 +61,6 @@
       }
     ]
   },
-
   {
     "cardHeight": 350,
     "name": "Saitlabs",
@@ -147,7 +146,6 @@
       }
     ]
   },
-
   {
     "cardHeight": 350,
     "name": "Shoppa",
@@ -247,6 +245,7 @@
     ]
   },
   {
+    "hidden": true,
     "cardHeight": 350,
     "name": "Timeless",
     "id": "timeless",
@@ -293,6 +292,7 @@
     ]
   },
   {
+    "hidden": true,
     "cardHeight": 350,
     "name": "Tacj",
     "id": "tacj",
@@ -316,6 +316,7 @@
     ]
   },
   {
+    "hidden": true,
     "cardHeight": 350,
     "name": "My old Portfolio",
     "id": "old-portfolio",
