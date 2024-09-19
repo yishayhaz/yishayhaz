@@ -75,21 +75,19 @@ h1 {
 .watermark {
   position: fixed;
 
-  inset: auto auto 5vh 2vw;
+  inset: auto auto 5vw 5vw;
+
+  max-width: 50vw;
 
   z-index: -3;
 
   span {
-    line-height: 0;
+    line-height: 1;
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 900;
 
     color: rgb(12, 35, 40);
-
-    white-space: pre;
-    writing-mode: unset;
-    cursor: default;
 
     &::selection {
       background: transparent;
