@@ -24,7 +24,7 @@ Hey there! I'm Yishay<br>I'm an experienced developer specializing in frontend a
 
 ![](https://github-contributor-stats.vercel.app/api?username=yishayhaz&limit=5&theme=solarized-light&combine_all_yearly_contributions=true)
 
----
+<!-- --- -->
 
 <!-- [![](https://visitcount.itsvg.in/api?id=yishayhaz&icon=0&color=7)](https://visitcount.itsvg.in) -->
 
