@@ -1,6 +1,37 @@
 [
   {
     "cardHeight": 350,
+    "name": "Strangers",
+    "id": "strangers",
+    "shortDescription": "Social App",
+    "thumbnail": "strangers.png",
+    "timeline": "February 2024 - Present",
+    "tags": ["mobile"],
+    "content": [
+      {
+        "title": "Visit Strangers",
+        "content": "The app is available on <a href='https://apps.apple.com/us/app/strangers/id6478955322' target='_blank'>App Store</a> and <a href='https://play.google.com/store/apps/details?id=com.strangers.app' target='_blank'>Google Play</a>.<br/><br/><a href='https://strangers-app.com' target='_blank'>https://strangers-app.com</a>"
+      },
+      {
+        "title": "What is Strangers?",
+        "content": "Strangers is a social app that connects strangers. it allows users to match, chat, and meet new people. events are also a big part of the app, where users can create and join events, and meet new people in real life."
+      },
+      {
+        "title": "Motivation",
+        "content": "I was always fascinated by strangers, always so mysterious and interesting. Strangers open a window to another world - they bring new perspectives, share unique experiences, and help us see life in different ways. This curiosity led me to create Strangers, a space for people to connect in real, meaningful ways. I myself am participating in a 100 cups of coffee (or beers;) challenge with strangers, and I will update here once I'm done!"
+      },
+      {
+        "title": "My role",
+        "content": "I’m working on this project with my partner, Yarden Machluf, who is the owner of a community with over <b><u>17,000</u></b> people. I developed the app using Flutter and implemented features like complex matching algorithms, authentication, push notifications, chat, and event recommendations."
+      },
+      {
+        "title": "Gallery",
+        "gallery": ["strangers.png", "icon.png", "matches.png", "profile.png"]
+      }
+    ]
+  },
+  {
+    "cardHeight": 350,
     "name": "Sensos",
     "id": "sensos",
     "shortDescription": "Smart labels for logistics",
