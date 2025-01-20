@@ -11,7 +11,7 @@ import projects from "~/db/projects.json";
 import { getGalleryPath } from "~/utils";
 
 export const ProjectsScreen = component$(() => {
-  const filter = useSignal("frontend");
+  const filter = useSignal("all");
 
   const setFilter = $((tag: string) => {
     window.location.hash = tag;
