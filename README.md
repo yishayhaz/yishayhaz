@@ -4,7 +4,7 @@ Hey there!
 
 ## 🌐 Socials
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](<[https://www.linkedin.com/in/yishay-hazan-85a102214/](https://www.linkedin.com/in/yishay-hazan-85a102214/)>) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@yishayhaz) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/yishayhaz) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/yishayhaz)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](<[https://www.linkedin.com/in/yishay-hazan-85a102214/](https://www.linkedin.com/in/yishay-hazan-85a102214/)>) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/yishayhaz)
 
 # 💻 Tech Stack
 
