@@ -1,6 +1,6 @@
 # 💫 About Me
 
-Hey there! I'm Yishay<br>I'm an experienced developer specializing in frontend and specifically in building design systems for large & complex projects.<br>My background spans full-stack applications, mobile apps, and software.<br>in my free time, I played with tons of technologies and frameworks!<br><br>
+Hey there!
 
 ## 🌐 Socials
 
